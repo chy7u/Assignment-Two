@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* colours #00AF54 #007CBE #FFA3AF #FFD639 #FBAF00 */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Share Tech Mono", monospace;
+    font-style: normal;
+}
+
+.header{
+    background-color:#68b6e4;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    width:auto;
+    height:150px;
+}
+
+.title {
+    color:black;
+    /*background-color:antiquewhite;*/
+    font-size:50px;
+    font-weight:400;
+    text-align: center;
+    margin: 20px;
+}
+
+.options,
+.navigation,
+.user {
+    display: flex;
+}
+
+.navigation {
+    
+}
+
+.user {
+    background-color:beige;
+    height:fit-content;
+    width:fit-content;
+}
+
+.signin {
+    
+}
