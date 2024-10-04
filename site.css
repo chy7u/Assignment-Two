@@ -1,8 +1,9 @@
 body {
     background-color: #7D7D7D;
 }
-h1 {
-    text-align: center;
+#title {
+    font-weight:bolder;
+    text-align: left;
     color: #E50914;
     font-size: 100px;
 }
