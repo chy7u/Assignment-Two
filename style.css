@@ -11,7 +11,7 @@
 .header{
     background-color:#68b6e4;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
     align-content: center;
     justify-content: space-between;
@@ -25,25 +25,28 @@
     font-size:50px;
     font-weight:400;
     text-align: center;
-    margin: 50px;
+    margin: 3%;
 }
 
 .options,
 .options > * {
     display: flex;
-    padding:10px;
+    padding:10%;
 }
 
 .navigation {
-    justify-content: right;
-    align-items: right;
-    width:1300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    /*justify-content: right;
+    align-items: right;*/
+    /*width:1300px;*/
 }
 
 .navigation > * {
     font-size:20px;
-    margin-left:70px;
-    margin-right:70px;
+    margin-left:20%;
+    margin-right:20%;
 }
 
 .user > * {
@@ -53,6 +56,6 @@
     height:fit-content;
     width:fit-content;
     font-size:medium;
-    margin-left:40px;
-    margin-right:20px;
+    margin-left:2%;
+    margin-right:2%;
 }
