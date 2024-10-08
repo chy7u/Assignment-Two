@@ -24,10 +24,12 @@
     font-weight:700;
 }
 
-.navigation:not(button), a {
+.navigation:not(button) > a {
     color:#fff;
     background:none;
     font-size:20px;
+    text-decoration: none;
+    margin-right:50px;
 }
 
 .navigation button {
@@ -45,4 +47,40 @@
 .navigation button:hover > a {
     background-color:rgb(209, 209, 209);
     color:#663399;
+}
+
+.dropdown {
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown .drop-button {
+    font-size:20px;
+    margin-inline:5px;
+    margin-right:50px;
+    border-radius:10px;
+    padding:0.5rem;
+    width:110px;
+}
+
+.dropdown:hover .drop-button {
+    background-color:#fff;
+}
+
+.drop-content {
+    display:none;
+    position:absolute;
+}
+
+.drop-content a {
+    float:none;
+    display:block;
+    color:black;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align:left;
+}
+
+.dropdown:hover .drop-content {
+    display:block;
 }
