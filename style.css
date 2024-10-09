@@ -36,11 +36,15 @@
     padding:0.5rem;
     width:110px;
 
-    transition:background-color 0.3s, color 0.1s;
+    transition:background-color 0.3s, color 0.3s;
+}
+
+a:link {
+    color:#FFA3AF;
 }
 
 .navigation button:hover, 
 .navigation button:hover > a {
-    background-color:rgb(209, 209, 209);
+    background-color:#FFA3AF;
     color:azure;
 }
