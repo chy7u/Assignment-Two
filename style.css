@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     /*box-sizing: border-box;*/
-    font-family: "Share Tech Mono", monospace;
+    font-family: "Karla", sans-serif;
 }
 /*
 html {
@@ -87,6 +87,11 @@ html {
     color:#cc3333
 }
 
+.navigation a:hover {
+    background-color:#fff;
+    color:#cc6633;
+}
+
 .dropdown {
     position:relative;
     display:inline-block;
@@ -110,7 +115,7 @@ html {
     position:absolute;
     background-color:#cc3333;
     min-width:160px;
-    box-shadow: 0px 8px 16px 0px rgba(60,74,99,1);
+    box-shadow: 0px 8px 16px 0px rgb(37, 47, 63);
     z-index:1;
 }
 
@@ -138,6 +143,10 @@ html {
     align-items:center;
     height:600px;
     padding:5%;
+}
+
+.hero-section > p {
+    flex:column;
 }
 
 .row {
