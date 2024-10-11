@@ -175,6 +175,7 @@ html {
 }
 */
 
+
 .grid-col-span-3 {
     grid-column: span 3;
 }
@@ -188,6 +189,14 @@ html {
 }
 
 .hero-section {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(images/netflixlandingpage2.jpg);
+    background-size:cover;
+    height:80vh;
     display:grid;
     align-items: center;
     grid-template-columns: repeat(5, 1fr);
@@ -195,9 +204,10 @@ html {
 
 }
 
-.hero-text > h1 {
-    font-size:50px;
+.hero-text {
+    font-size:40px;
     min-height:10%;
+    color:#fff;
 }
 
 .hero-text ,
