@@ -189,15 +189,33 @@ html {
 
 .hero-section {
     display:grid;
+    position:relative;
+    background-image:
+    linear-gradient(to left, rgb(0,0,0,0.4), rgba(0,0,0,0.95)),
+    url(images/moviesbackgroundherosection.jpg);
+    background-size:cover;
     align-items: center;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
+    
 }
+
+/*.hero-section::before {
+    content:"";
+    background-image:url(images/moviesbackgroundherosection.jpg);
+    background-size:cover;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    opacity:0.2;
+}
+    */
 
 .hero-text > h1 {
     font-size:50px;
-    min-height:10%;
+    color:#fff;
 }
 
 .hero-text ,
@@ -212,4 +230,14 @@ html {
 
 .column > img {
     padding: 10px 10px;
+}
+
+/*footer*/
+
+.faqs {
+    background-color:#cc6633;
+    color:white;
+    cursor:pointer;
+
+    width:calc(100% - 20px);
 }
